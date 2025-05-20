@@ -36,7 +36,7 @@ def process_prompt():
     }}
     """),
     ("human", "\n\nDo not generate the output based on the above sample — it’s just for reference on format.\n"
-              "Now the actual prompt is '{prompt}'. If any field data is missing, keep it blank.\n"
+              "Now the actual prompt is '{prompt}'. If any field data is missing, keep it blank. priority can be [High,Normal,Low] any of these three if not specified keep it Normal by default \n"
               "If no actual prompt is provided, keep the structure same with empty values, like 'name': '', etc.")
     ])
 
